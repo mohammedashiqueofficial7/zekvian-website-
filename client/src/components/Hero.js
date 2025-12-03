@@ -3,7 +3,7 @@ import { ArrowRight, Play } from 'lucide-react';
 
 const Hero = ({ scrollToSection }) => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 relative overflow-hidden">
+    <section className="min-h-screen bg-gradient-to-br from-orange-50 via-rose-50 to-primary-50 relative overflow-hidden">
       <div className="container-max">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen py-20">
           <div className="text-left animate-fade-in">

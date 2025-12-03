@@ -20,9 +20,16 @@ const Header = ({ activeSection, scrollToSection }) => {
           <div className="flex items-center">
             <button
               onClick={() => scrollToSection('home')}
-              className="text-2xl font-bold text-gray-900 hover:text-primary-600 transition-colors"
+              className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
             >
-              Zekvian
+              <div className="relative w-12 h-12 bg-gradient-to-br from-primary-500 via-accent-500 to-rose-500 rounded-xl flex items-center justify-center shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-110 group">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-accent-400 rounded-xl blur-sm opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                <span className="relative text-white font-black text-2xl transform -rotate-12 group-hover:rotate-0 transition-transform duration-500 drop-shadow-lg" style={{fontFamily: 'serif'}}>Z</span>
+                <div className="absolute top-1 right-1 w-2 h-2 bg-yellow-300 rounded-full animate-pulse"></div>
+              </div>
+              <span className="text-2xl font-bold bg-gradient-to-r from-primary-600 via-accent-500 to-rose-500 bg-clip-text text-transparent hover:from-primary-500 hover:to-accent-400 transition-all duration-300">
+                <span className="inline-block hover:scale-105 transition-transform duration-200">Z</span>EKVIAN
+              </span>
             </button>
           </div>
 
