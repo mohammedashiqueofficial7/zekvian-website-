@@ -215,7 +215,7 @@ const Contact = () => {
             
             <div className="mt-8 pt-8 border-t border-gray-200 flex items-center justify-center gap-4 text-sm text-gray-500">
               <Clock size={16} />
-              <span>Business hours: 9 AM - 6 PM PST</span>
+              <span>Business hours: 9 AM - 6 PM IST</span>
               <div className={`w-2 h-2 rounded-full ${
                 serverStatus === 'online' ? 'bg-green-500' : 
                 serverStatus === 'offline' ? 'bg-red-500' : 'bg-yellow-500'

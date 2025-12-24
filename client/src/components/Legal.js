@@ -162,7 +162,7 @@ const Legal = () => {
               <p className="text-sm text-gray-600">
                 <strong>Questions about our legal policies?</strong> Contact our <span className="text-primary-600 font-semibold">Zekvian</span> legal team at{' '}
                 <a href="mailto:legal@zekvian.com" className="text-primary-600 hover:text-primary-700 font-semibold">
-                  legal@zekvian.com
+                  official.zekvian@gmail.com
                 </a>{' '}
                 for clarification or assistance.
               </p>

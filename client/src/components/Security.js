@@ -176,7 +176,7 @@ const Security = () => {
 
                 <div>
                   <div className="flex justify-between items-center mb-2">
-                    <span className="text-gray-700 font-medium">Last Incident</span>
+                    <span className="text-gray-700 font-medium">Last Update</span>
                     <span className="text-sm text-gray-600">10 minutes ago</span>
                   </div>
                 </div>
