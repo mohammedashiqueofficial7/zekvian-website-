@@ -81,12 +81,12 @@ const Features = () => {
           ))}
         </div>
         
-        <div className="text-center">
+        {/* <div className="text-center">
           <div className="inline-flex items-center bg-gradient-to-r from-yellow-500 to-amber-600 text-black px-8 py-4 rounded-2xl shadow-2xl hover:shadow-yellow-500/25 transition-all duration-300 transform hover:-translate-y-1">
             <span className="font-bold text-lg mr-3">Ready to get started?</span>
             <span className="bg-black/20 px-4 py-2 rounded-xl font-semibold">Join 10K+ Companies</span>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

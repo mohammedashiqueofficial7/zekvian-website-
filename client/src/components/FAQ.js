@@ -131,14 +131,14 @@ const FAQ = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="mailto:support@zekvian.com"
+                  href="mailto:official.zekvian@gmail.com"
                   className="bg-gradient-to-r from-yellow-500 to-amber-600 hover:from-yellow-600 hover:to-amber-700 text-black font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
                 >
                   Contact Support
                 </a>
-                <button className="border-2 border-yellow-500 text-yellow-400 hover:bg-yellow-500 hover:text-black font-semibold py-3 px-6 rounded-lg transition-all duration-200">
+                {/* <button className="border-2 border-yellow-500 text-yellow-400 hover:bg-yellow-500 hover:text-black font-semibold py-3 px-6 rounded-lg transition-all duration-200">
                   Schedule a Call
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

@@ -157,7 +157,7 @@ const Hero = ({ scrollToSection }) => {
             <div className="flex items-center space-x-8 text-gray-400">
               <div className="text-center group cursor-pointer hover-lift">
                 <p className="text-2xl font-bold text-yellow-400 group-hover:scale-110 transition-transform duration-300 animate-pulse">
-                  <span className="font-mono">10K+</span>
+                  <span className="font-mono">2K+</span>
                 </p>
                 <p className="text-sm animate-fade-in-up">Active Users</p>
               </div>
@@ -169,7 +169,7 @@ const Hero = ({ scrollToSection }) => {
               </div>
               <div className="text-center group cursor-pointer hover-lift">
                 <p className="text-2xl font-bold text-yellow-400 group-hover:scale-110 transition-transform duration-300 animate-pulse">
-                  <span className="font-mono">500+</span>
+                  <span className="font-mono">200+</span>
                 </p>
                 <p className="text-sm animate-fade-in-up animate-delay-200">Integrations</p>
               </div>

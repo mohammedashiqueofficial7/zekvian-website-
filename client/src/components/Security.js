@@ -98,10 +98,10 @@ const Security = () => {
               <p className="text-gray-300 mb-4">
                 We conduct regular third-party security audits and penetration testing to ensure the highest level of protection.
               </p>
-              <button className="group bg-gradient-to-r from-yellow-500 to-amber-500 text-black px-4 py-2 rounded-lg font-medium flex items-center space-x-2 hover:from-yellow-400 hover:to-amber-400 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/30">
+              {/* <button className="group bg-gradient-to-r from-yellow-500 to-amber-500 text-black px-4 py-2 rounded-lg font-medium flex items-center space-x-2 hover:from-yellow-400 hover:to-amber-400 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/30">
                 <span>View Security Report</span>
                 <ExternalLink size={16} className="group-hover:translate-x-1 transition-transform" />
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -148,10 +148,10 @@ const Security = () => {
                 </div>
               </div>
 
-              <button className="group mt-6 bg-gradient-to-r from-yellow-500 to-amber-500 text-black px-4 py-2 rounded-lg font-medium flex items-center space-x-2 hover:from-yellow-400 hover:to-amber-400 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/30">
+              {/* <button className="group mt-6 bg-gradient-to-r from-yellow-500 to-amber-500 text-black px-4 py-2 rounded-lg font-medium flex items-center space-x-2 hover:from-yellow-400 hover:to-amber-400 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/30">
                 <span>View Full Status Page</span>
                 <ExternalLink size={16} className="group-hover:translate-x-1 transition-transform" />
-              </button>
+              </button> */}
             </div>
 
             <div>

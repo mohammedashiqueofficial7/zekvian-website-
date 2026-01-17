@@ -5,37 +5,37 @@ const About = () => {
   const team = [
     {
       name: 'Loki',
-      title: 'CEO & Founder',
-      bio: 'Former VP of Engineering at major tech companies. 15+ years building scalable platforms.',
-      email: 'loki@zekvian.com',
-      image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&crop=face'
+      // title: 'CEO & Founder',
+      // bio: 'Former VP of Engineering at major tech companies. 15+ years building scalable platforms.',
+      // email: 'loki@zekvian.com',
+      image: 'https://th.bing.com/th/id/R.568c1498bc8acfd6b17eb9baeb04aba5?rik=VS4wq8ALwHWuyw&riu=http%3a%2f%2fimages5.fanpop.com%2fimage%2fphotos%2f30700000%2fLoki-the-avengers-30730363-1280-1024.jpg&ehk=6bop0cwBKk91nRngq8%2fgzNizIRTIVWH4xAftaER5xDg%3d&risl=&pid=ImgRaw&r=0'
     },
     {
       name: 'Batman',
-      title: 'CTO',
-      bio: 'Ex-Google engineer with expertise in distributed systems and machine learning.',
-      email: 'batman@zekvian.com',
-      image: 'https://images.unsplash.com/photo-1608889175123-8ee362201f81?w=400&h=400&fit=crop&crop=face'
+      // title: 'CTO',
+      // bio: 'Ex-Google engineer with expertise in distributed systems and machine learning.',
+      // email: 'batman@zekvian.com',
+      image: 'https://images.unsplash.com/photo-1588862081167-d5b98006637e?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
       name: 'Iron Man',
-      title: 'VP of Product',
-      bio: 'Product leader with 12+ years experience building enterprise software solutions.',
-      email: 'ironman@zekvian.com',
-      image: 'https://images.unsplash.com/photo-1608889476561-6242cfdbf622?w=400&h=400&fit=crop&crop=face'
+      // title: 'VP of Product',
+      // bio: 'Product leader with 12+ years experience building enterprise software solutions.',
+      // email: 'ironman@zekvian.com',
+      image: 'https://images.unsplash.com/photo-1623984109622-f9c970ba32fc?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
       name: 'Superman',
-      title: 'Head of Design',
-      bio: 'Award-winning designer focused on creating intuitive user experiences.',
-      email: 'superman@zekvian.com',
-      image: 'https://images.unsplash.com/photo-1608889825103-eb5ed706fc64?w=400&h=400&fit=crop&crop=face'
+      // title: 'Head of Design',
+      // bio: 'Award-winning designer focused on creating intuitive user experiences.',
+      // email: 'superman@zekvian.com',
+      image: 'https://images.unsplash.com/photo-1702138129392-364adea0ad00?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
       name: 'Spider-Man',
-      title: 'VP of Sales',
-      bio: 'Sales leader with 10+ years driving revenue growth for enterprise software companies.',
-      email: 'spiderman@zekvian.com',
+      // title: 'VP of Sales',
+      // bio: 'Sales leader with 10+ years driving revenue growth for enterprise software companies.',
+      // email: 'spiderman@zekvian.com',
       image: 'https://images.unsplash.com/photo-1635805737707-575885ab0820?w=400&h=400&fit=crop&crop=face'
     }
   ];

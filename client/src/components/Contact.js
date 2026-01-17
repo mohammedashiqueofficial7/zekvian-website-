@@ -217,10 +217,10 @@ const Contact = () => {
               <Clock size={16} />
               <span>Business hours: 9 AM - 6 PM IST</span>
               <div className={`w-2 h-2 rounded-full ${
-                serverStatus === 'online' ? 'bg-yellow-400' : 
+                serverStatus === 'online' ? 'bg-green-400' : 
                 serverStatus === 'offline' ? 'bg-red-500' : 'bg-amber-500'
               }`}></div>
-              <span className={serverStatus === 'online' ? 'text-yellow-400' : 
+              <span className={serverStatus === 'online' ? 'text-green-400' : 
                 serverStatus === 'offline' ? 'text-red-400' : 'text-amber-400'}>
                 Server {serverStatus === 'online' ? 'Online' : 
                   serverStatus === 'offline' ? 'Offline' : 'Checking...'}

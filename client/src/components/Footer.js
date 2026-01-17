@@ -58,8 +58,8 @@ const Footer = ({ scrollToSection }) => {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail size={16} />
-                  <a href="mailto:hello@zekvian.com" className="hover:text-white transition-colors">
-                    hello@zekvian.com
+                  <a href="mailto:official.zekvian@gmail.com" className="hover:text-white transition-colors">
+                    official.zekvian@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center space-x-2">
