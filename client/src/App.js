@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Features from './components/Features';
@@ -11,6 +12,7 @@ import Security from './components/Security';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import Chatbot from './components/Chatbot';
+import AdminApp from './components/AdminApp';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -23,7 +25,7 @@ function App() {
     }
   };
 
-  return (
+  const MainWebsite = () => (
     <div className="min-h-screen bg-white text-gray-800">
       <Header activeSection={activeSection} scrollToSection={scrollToSection} />
       
@@ -59,6 +61,15 @@ function App() {
       <Footer scrollToSection={scrollToSection} />
       <Chatbot />
     </div>
+  );
+
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainWebsite />} />
+        <Route path="/admin" element={<AdminApp />} />
+      </Routes>
+    </Router>
   );
 }
 

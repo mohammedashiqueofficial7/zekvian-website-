@@ -43,6 +43,7 @@ const contactSchema = new mongoose.Schema({
   email: { type: String, required: true, trim: true, lowercase: true },
   company: { type: String, trim: true },
   message: { type: String, required: true, trim: true },
+  status: { type: String, enum: ['new', 'contacted', 'pending'], default: 'new' },
   createdAt: { type: Date, default: Date.now },
   ipAddress: String,
   userAgent: String
@@ -225,6 +226,46 @@ app.get('/api/contacts', async (req, res) => {
     res.status(500).json({
       success: false,
       message: 'Error fetching contacts'
+    });
+  }
+});
+
+// Update contact status (admin endpoint)
+app.put('/api/contacts/:id/status', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { status } = req.body;
+
+    // Validate status
+    if (!['new', 'contacted', 'pending'].includes(status)) {
+      return res.status(400).json({
+        success: false,
+        message: 'Invalid status. Must be new, contacted, or pending.'
+      });
+    }
+
+    const contact = await Contact.findByIdAndUpdate(
+      id,
+      { status },
+      { new: true, runValidators: true }
+    );
+
+    if (!contact) {
+      return res.status(404).json({
+        success: false,
+        message: 'Contact not found'
+      });
+    }
+
+    res.json({
+      success: true,
+      contact
+    });
+  } catch (error) {
+    console.error('Error updating contact status:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error updating contact status'
     });
   }
 });
